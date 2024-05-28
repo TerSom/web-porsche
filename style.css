@@ -1,0 +1,85 @@
+body, html, * {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container {
+    display: block;
+    height: 100vh;
+    width: 100%;
+}
+
+.header {
+    height: 78px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar {
+    position: relative;
+    display: flex;
+    width: 92%;
+    height: 76px;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar a {
+    margin-right: 4%;
+    text-decoration: none;
+    color: black;
+    font-family: myFont;
+    font-size: 35px;
+}
+
+@font-face {
+    font-family: myFont;
+    src: url(911porschav3.ttf);
+}
+
+.png {
+    margin-left: -2px;
+    width: 15px;
+    height: 15px;
+}
+
+.menu {
+    position: absolute;
+    left: 10px;
+    display: flex;
+    border-radius: 8px;
+    width: 56px;
+    height: 5px;
+    padding: 10px;
+    align-items: center;
+    cursor: pointer;
+    transition: background-color 0.3s ease, width 0.3s ease;
+}
+
+.menu:hover {
+    background-color: rgba(210, 210, 210, 0.507);
+}
+
+.menu p {
+    margin-left: 5px;
+    font-weight: 500;
+}
+
+.main {
+   display: block;
+   justify-content: center;
+}
+
+.slider-wrapper{
+    display: flex;
+}
+
+.img{
+    width: 1920px;
+    height: 740.64px; 
+}
+
+
