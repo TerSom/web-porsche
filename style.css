@@ -1,4 +1,6 @@
-body, html, * {
+body,
+html,
+* {
     margin: 0;
     padding: 0;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -11,7 +13,7 @@ body, html, * {
 }
 
 .header {
-    height: 78px;
+    height: 81px;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -28,11 +30,10 @@ body, html, * {
 }
 
 .navbar a {
-    margin-right: 4%;
     text-decoration: none;
     color: black;
     font-family: myFont;
-    font-size: 35px;
+    font-size: 29px;
 }
 
 @font-face {
@@ -42,8 +43,8 @@ body, html, * {
 
 .png {
     margin-left: -2px;
-    width: 15px;
-    height: 15px;
+    width: 16px;
+    height: 19px;
 }
 
 .menu {
@@ -56,7 +57,7 @@ body, html, * {
     padding: 10px;
     align-items: center;
     cursor: pointer;
-    transition: background-color 0.3s ease, width 0.3s ease;
+    transition: background-color 0.3s ease
 }
 
 .menu:hover {
@@ -64,22 +65,324 @@ body, html, * {
 }
 
 .menu p {
-    margin-left: 5px;
-    font-weight: 500;
+    margin-left: 7px;
+    font-weight: 400;
 }
 
 .main {
-   display: block;
-   justify-content: center;
+    width: 100%;
+    overflow: hidden;
+    height: 85.3vh;
 }
 
-.slider-wrapper{
+.slider-wrapper {
+    width: 100%;
     display: flex;
+    animation: slide-animation 16s infinite;
 }
 
-.img{
-    width: 1920px;
-    height: 740.64px; 
+.slide-1 {
+    min-width: 100%;
 }
 
+.img {
+    width: 100%;
+    height: auto;
+}
+
+@keyframes slide-animation {
+    0% {
+        transform: translateX(0%);
+    }
+
+    20% {
+        transform: translateX(0%);
+    }
+
+    25% {
+        transform: translateX(-100%);
+    }
+
+    45% {
+        transform: translateX(-100%);
+    }
+
+    50% {
+        transform: translateX(-200%);
+    }
+
+    70% {
+        transform: translateX(-200%);
+    }
+
+    75% {
+        transform: translateX(-300%);
+    }
+
+    95% {
+        transform: translateX(-300%);
+    }
+
+    100% {
+        transform: translateX(0%);
+    }
+}
+
+.slide-1 a {
+    margin-top: -159px;
+    margin-left: 61px;
+    display: flex;
+    text-decoration: none;
+    color: white;
+    width: 1146px;
+    height: 87px;
+    transition: color 0.3s ease, width 0.3s ease;
+}
+
+.main a:hover {
+    color: red;
+}
+
+.icon {
+    width: 31px;
+    height: 45px;
+    margin-top: 25px;
+}
+
+.claim-part-1 {
+    width: 455px;
+}
+
+.claim-part-1 p {
+    font-size: 40px;
+    margin-top: 18px;
+    font-weight: bold;
+    font-family: inherit;
+    width: 500px;
+}
+
+.claim-part-2 {
+    position: absolute;
+    margin: 71px;
+    margin-left: 26px;
+    font-size: 29px;
+    font-weight: 600;
+    font-family: inherit;
+    width: 500px;
+}
+
+.claim-part-3 p {
+    font-size: 40px;
+    margin-top: 18px;
+    font-weight: bold;
+    font-family: inherit;
+    width: 500px;
+}
+
+.claim-part-4 {
+    position: absolute;
+    margin: 71px;
+    margin-left: 26px;
+    font-size: 29px;
+    font-weight: 600;
+    font-family: inherit;
+    width: 500px;
+}
+
+.model-grid {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.module-headline {
+    width: 86%;
+}
+
+.module-headline span {
+    font-size: 34px;
+}
+
+.section {
+    width: 100%;
+}
+
+.section-grid {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 674.44px;
+}
+
+.card-1,
+.card-2,
+.card-3,
+.card-4,
+.card-5,
+.card-6 {
+    width: 100%;
+    max-width: 449.64px;
+    height: 337.22px;
+    background-color: aqua;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-size {
+    width: 449.64px;
+    height: 337.22px;
+}
+
+.card-1 {
+    background: url(https://files.porsche.com/filestore/image/multimedia/none/carrange-flyout-718/small/e7041e23-0b8d-11ef-8128-005056bbdc38;sM;twebp;c892;gc/porsche-small.webp);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.card-2 {
+    background: url(https://files.porsche.com/filestore/image/multimedia/none/carrange-flyout-911/small/0e1cf3c0-0b8e-11ef-8128-005056bbdc38;sM;twebp;c892;gc/porsche-small.webp);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.card-3 {
+    background: url(https://files.porsche.com/filestore/image/multimedia/none/carrange-flyout-taycan/small/06c7f690-0b8d-11ef-8128-005056bbdc38;sM;twebp;c892;gc/porsche-small.webp);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.card-4 {
+    background: url(https://files.porsche.com/filestore/image/multimedia/none/carrange-flyout-panamera/small/34c0f4d3-0b8e-11ef-8128-005056bbdc38;sM;twebp;c892;gc/porsche-small.webp);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.card-5 {
+    background: url(https://files.porsche.com/filestore/image/multimedia/none/carrange-flyout-macan/small/58522db0-0b8e-11ef-8128-005056bbdc38;sM;twebp;c892;gc/porsche-small.webp);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.card-6 {
+    background: url(https://files.porsche.com/filestore/image/multimedia/none/carrange-flyout-cayenne/small/6d03d962-0b8e-11ef-8128-005056bbdc38;sM;twebp;c892;gc/porsche-small.webp);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.card-isi {
+    width: 85%;
+    height: 90%;
+}
+
+.card-text {
+    color: white;
+    font-weight: 600;
+}
+
+.card-text p {
+    font-size: 35px;
+}
+
+.card-text span {
+    font-size: 18px;
+}
+
+.card-button {
+    width: 300px;
+    height: 60px;
+    justify-content: start;
+    margin-top: 150px;
+    display: flex;
+    align-items: center;
+    gap: 9px;
+}
+
+.card-button button {
+    width: 300px;
+    height: 50px;
+    background-color: white;
+    color: black;
+    transition: color 0.3s ease, background-color 0.3s ease;
+    border: none;
+}
+
+.card-button button:hover {
+    background-color: red;
+    color: white;
+}
+
+.card-button span {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 49px;
+    border: solid 1px white;
+    transition: border 0.3s ease, color 0.3s ease;
+}
+
+.card-button span:hover {
+    border: solid 1px red;
+    color: red;
+}
+
+.section2 {
+    width: 100%;
+    height: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section2 p {
+    font-size: 35px;
+    font-weight: 500;
+}
+
+.cube-button {
+    margin-top: 250px;
+}
+
+.section-grid2 {
+    width: 90%;
+    height: 70%;
+}
+
+.cube-grid {
+    width: 100%;
+    height: 81%;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.cube1 {
+    width: 30%;
+    height: 100%;
+    background: url(https://files.porsche.com/filestore/image/multimedia/none/homepage-teaser-icc-718/normal/db4be0ec-f8f4-11eb-80db-005056bbdc38;sP;twebp/porsche-normal.webp);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.cube2 {
+    width: 30%;
+    height: 100%;
+    background: url(https://files.porsche.com/filestore/image/multimedia/none/homepage-teaser-icc-911/normal/e7c2070d-f8f4-11eb-80db-005056bbdc38;sP;twebp/porsche-normal.webp);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.cube3 {
+    width: 30%;
+    height: 100%;
+    background: url(https://files.porsche.com/filestore/image/multimedia/none/homepage-teaser-icc-taycan/normal/253ef544-f8f5-11eb-80db-005056bbdc38;sP;twebp/porsche-normal.webp);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
 
