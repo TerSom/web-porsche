@@ -523,14 +523,14 @@ html,
 .kotak-grid{
     display: flex;
     width: 100%;
+    min-height: 620px;
     justify-content: center;
     flex-wrap: wrap;
-
 }
 
 
 .kotak-1{
-    
+    margin: 5px;
     width: 400px;
     height: 300px;
     background: url(https://files.porsche.com/filestore/image/multimedia/none/rd-2018-homepage-teaser-ww-e-performance-kw12/normal/f7cc8e7c-6599-11e9-80c4-005056bbdc38;sK;twebp/porsche-normal.webp);
@@ -538,9 +538,8 @@ html,
     background-repeat: no-repeat;
 }
 
-
-
 .kotak-2{
+    margin: 5px;
     width: 400px;
     height: 300px;
     background: url(https://files.porsche.com/filestore/image/multimedia/none/rd-2022-homepage-teaser-ww-pds-porschelifestyle-kw22/normal/585df047-db34-11ec-80ef-005056bbdc38;sK;twebp/porsche-normal.webp);
@@ -548,7 +547,7 @@ html,
     background-repeat: no-repeat;
 }
 .kotak-3{
-
+    margin: 5px;
     width: 400px;
     height: 300px;
     background: url(https://files.porsche.com/filestore/image/multimedia/none/rd-2019-homepage-teaser-ww-roadsbyporsche-kw23/normal/8127be1d-81f3-11e9-80c4-005056bbdc38;sK;twebp/porsche-normal.webp);
@@ -557,6 +556,7 @@ html,
 }
 
 .kotak-4{
+    margin: 5px;
     width: 400px;
     height: 300px;
     background: url(https://files.porsche.com/filestore/image/multimedia/none/rd-2017-homepage-teaser-porscheexclusivemanufaktur-kw24/normal/3cbd9b47-4c59-11e7-bfe2-0019999cd470;sK;twebp/porsche-normal.webp);
@@ -564,3 +564,96 @@ html,
     background-repeat: no-repeat;
 }
 
+
+.footer{
+    background-color: #333;
+    width: 100%;
+    height: 639px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-grid{
+    width: 80%;
+    max-width: 2700px ;
+    height: 80%;
+    background-color: aqua;
+}
+
+.coloum-grid{
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
+.coloum-isi-1{
+    width: 100%;
+    height: 35%;
+}
+.coloum-isi-2{
+    width: 100%;
+    height: 15%;
+}
+.coloum-isi-3{
+    width: 100%;
+    height: 45%;
+}
+.coloum-isi-4{
+    width: 100%;
+}
+
+.coloum{
+    background-color: beige ;
+    border: solid 2px black;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+
+.coloum-span{
+    width: 100%;
+    background-color: blue;
+}
+
+.footer-a{
+    text-decoration: none;
+    color: black;
+    font-size: 17px;
+}
+
+.coloum-span span{
+    font-size: 27px;
+    font-weight: 500;
+}
+
+.footer-cube{
+    background-color: gray;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+}
+
+.footer-cube img{
+    width: 30px;
+    padding: 10px;
+    height: 30px;
+}
+
+.footer-cube2{
+    width: 100%;
+    display: flex;
+}
+
+.foote-cube-3{
+    display: flex;
+}
+.footer.cubeKecil{
+    background-color: gray;
+    width: 20px;
+    height: 20px;
+}
