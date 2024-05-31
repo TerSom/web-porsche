@@ -8,7 +8,7 @@ html,
 
 .container {
     display: block;
-    height: 100vh;
+    height: 100%;
     width: 100%;
 }
 
@@ -72,7 +72,7 @@ html,
 .main {
     width: 100%;
     overflow: hidden;
-    height: 85.3vh;
+    height: 100%;
 }
 
 .slider-wrapper {
@@ -129,13 +129,13 @@ html,
 }
 
 .slide-1 a {
-    margin-top: -159px;
+    margin-top: -180px;
     margin-left: 61px;
     display: flex;
     text-decoration: none;
     color: white;
     width: 1146px;
-    height: 87px;
+    height: 160px;
     transition: color 0.3s ease, width 0.3s ease;
 }
 
@@ -198,7 +198,8 @@ html,
 }
 
 .module-headline {
-    width: 86%;
+    width: 87%;
+    max-width:2700px;
 }
 
 .module-headline span {
@@ -214,7 +215,6 @@ html,
     justify-content: center;
     flex-wrap: wrap;
     width: 100%;
-    height: 674.44px;
 }
 
 .card-1,
@@ -332,57 +332,235 @@ html,
     color: red;
 }
 
-.section2 {
+.section2{
     width: 100%;
-    height: 90%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.section2 p {
-    font-size: 35px;
-    font-weight: 500;
+.section-grid2{
+    width: 2700px;
+    height: 80%;
 }
 
-.cube-button {
-    margin-top: 250px;
-}
-
-.section-grid2 {
-    width: 90%;
-    height: 70%;
-}
-
-.cube-grid {
-    width: 100%;
-    height: 81%;
+.cube-grid{
     display: flex;
-    justify-content: space-between;
+    width: 100%;
+    justify-content: center;
+    flex-wrap: wrap;
     text-align: center;
 }
 
-.cube1 {
-    width: 30%;
-    height: 100%;
-    background: url(https://files.porsche.com/filestore/image/multimedia/none/homepage-teaser-icc-718/normal/db4be0ec-f8f4-11eb-80db-005056bbdc38;sP;twebp/porsche-normal.webp);
+.btn{
+    border: none;
+    margin-top: 220px;
+    width: 170px;
+    height: 51px;
+    background-color: #313639;
+    color: white;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background-color: red;
+}
+
+.cube-1{
+    width: 400px;
+    height: 357px;
+    background: url(https://files.porsche.com/filestore/image/multimedia/none/homepage-teaser-icc-718/normal/db4be0ec-f8f4-11eb-80db-005056bbdc38;sO;twebp/porsche-normal.webp);
+    background-size: 100%;
     background-repeat: no-repeat;
+}
+
+
+
+.cube-2{
+    width: 400px;
+    height: 357px;
+    background: url(https://files.porsche.com/filestore/image/multimedia/none/homepage-teaser-icc-911/normal/e7c2070d-f8f4-11eb-80db-005056bbdc38;sO;twebp/porsche-normal.webp);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.cube-3{
+
+    width: 400px;
+    height: 357px;
+    background: url(https://files.porsche.com/filestore/image/multimedia/none/homepage-teaser-icc-taycan/normal/253ef544-f8f5-11eb-80db-005056bbdc38;sO;twebp/porsche-normal.webp);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.cube-4{
+    width: 400px;
+    height: 357px;
+    background: url(https://files.porsche.com/filestore/image/multimedia/none/homepage-teaser-icc-macan/normal/0355d78f-f8f5-11eb-80db-005056bbdc38;sO;twebp/porsche-normal.webp);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.article{
+    width: 100%;
+    height: 829px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.article-grid{
+
+    width: 87%;
+    max-width: 170em;
+    height: 80%;
+    display: flex;
+}
+
+.box-grid-1{
+    width: 50%;
+    height: 100%;
+    background-color: azure;
+}
+.box-grid-2{
+    width: 50%;
+    height: 100%;
+    background-color: azure;
+}
+.box-grid-3{
+    width: 50%;
+    height: 100%;
+    background-color: azure;
+}
+
+.box-grid{
+    width: 100%;
+    height: 30%;
+    display: flex;
+}
+.box-1{
+    width: 100%;
+    height: 70%;
+    background-color: black;
+}
+
+.box-7{
+    width: 100px;
+    height: 70%;
+    background-color: black;
+}
+
+.box-6{
+    width: 100px;
+    height: 70%;
+    background-color: black;
+}
+.box-1{
+    width: 100%;
+    background: url(https://d2vykwbochoala.cloudfront.net/t_smart_auto_crop/https://d1sdeqoxcfgxl0.cloudfront.net/images/original/88e7bdb9667c3f064423db8928731454cd50973d7a441437727e37b5.jpg);
     background-size: 100%;
 }
 
-.cube2 {
-    width: 30%;
-    height: 100%;
-    background: url(https://files.porsche.com/filestore/image/multimedia/none/homepage-teaser-icc-911/normal/e7c2070d-f8f4-11eb-80db-005056bbdc38;sP;twebp/porsche-normal.webp);
-    background-repeat: no-repeat;
+.box-2{
+    width: 50%;
+    background: url(https://d2vykwbochoala.cloudfront.net/t_smart_auto_crop/https://d1sdeqoxcfgxl0.cloudfront.net/images/original/e10072b4fe5b000d00be840708d965f06a1ff4bdcb6b0a880d12a1b8.jpg);
     background-size: 100%;
 }
 
-.cube3 {
-    width: 30%;
-    height: 100%;
-    background: url(https://files.porsche.com/filestore/image/multimedia/none/homepage-teaser-icc-taycan/normal/253ef544-f8f5-11eb-80db-005056bbdc38;sP;twebp/porsche-normal.webp);
-    background-repeat: no-repeat;
+.box-3{
+    width: 50%;
+    background: url(https://d2vykwbochoala.cloudfront.net/t_smart_auto_crop/https://d1sdeqoxcfgxl0.cloudfront.net/images/original/5a138bf5273515816e6a2f2ef724efb02dc81f1740a429721a34f38e.jpg);
     background-size: 100%;
+}
+
+.box-4{
+    width: 50%;
+    background: url(https://d2vykwbochoala.cloudfront.net/t_smart_auto_crop/https://d1sdeqoxcfgxl0.cloudfront.net/images/original/be96ccb39b598f595679e405814bd03d2ef94339314e6826ab117701.jpg);
+    background-size: 100%;
+}
+
+.box-5{
+    width: 50%;
+    background: url(https://d2vykwbochoala.cloudfront.net/t_smart_auto_crop/https://d1sdeqoxcfgxl0.cloudfront.net/images/original/c3e42345df9e100bbef254c5151db9951ce0d1b2f077f0cecc6af91e.jpg);
+    background-size: 100%;
+}
+
+.box-6{
+    width: 100%;
+    background: url(https://d2vykwbochoala.cloudfront.net/t_smart_auto_crop/https://d1sdeqoxcfgxl0.cloudfront.net/images/original/5a886f5b146d706d97bdffdfd654234542dfcb2c7d23b4d4155b2002.jpg);
+    background-size: 100%;
+}
+
+.box-7{
+    width: 100%;
+    background: url(https://d2vykwbochoala.cloudfront.net/t_smart_auto_crop/https://d1sdeqoxcfgxl0.cloudfront.net/images/original/59c3a346ce0b574b7a258cba89f786ed94896a272a9a85608ab85e6d.jpg);
+    background-size: 100%;
+}
+
+.box-8{
+    width: 50%;
+    background: url(https://d2vykwbochoala.cloudfront.net/t_smart_auto_crop/https://d1sdeqoxcfgxl0.cloudfront.net/images/original/e2a7a3d6fed2084d3950aa1dd439f4fa6556c9e84310400431e98c2f.jpg);
+    background-size: 100%;
+}
+
+.box-9{
+    width: 50%;
+    background: url(https://d2vykwbochoala.cloudfront.net/t_smart_auto_crop/https://d1sdeqoxcfgxl0.cloudfront.net/images/original/aa621f02a9f2dd8d5cd7be752cceaba9ae0f91986ceb1acf32246c04.jpg);
+    background-size: 100%;
+}
+
+.article2{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.article-grid2{
+    width: 2700px;
+    height: 80%;
+}
+
+.kotak-grid{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+
+
+.kotak-1{
+    
+    width: 400px;
+    height: 300px;
+    background: url(https://files.porsche.com/filestore/image/multimedia/none/rd-2018-homepage-teaser-ww-e-performance-kw12/normal/f7cc8e7c-6599-11e9-80c4-005056bbdc38;sK;twebp/porsche-normal.webp);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+
+
+.kotak-2{
+    width: 400px;
+    height: 300px;
+    background: url(https://files.porsche.com/filestore/image/multimedia/none/rd-2022-homepage-teaser-ww-pds-porschelifestyle-kw22/normal/585df047-db34-11ec-80ef-005056bbdc38;sK;twebp/porsche-normal.webp);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.kotak-3{
+
+    width: 400px;
+    height: 300px;
+    background: url(https://files.porsche.com/filestore/image/multimedia/none/rd-2019-homepage-teaser-ww-roadsbyporsche-kw23/normal/8127be1d-81f3-11e9-80c4-005056bbdc38;sK;twebp/porsche-normal.webp);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.kotak-4{
+    width: 400px;
+    height: 300px;
+    background: url(https://files.porsche.com/filestore/image/multimedia/none/rd-2017-homepage-teaser-porscheexclusivemanufaktur-kw24/normal/3cbd9b47-4c59-11e7-bfe2-0019999cd470;sK;twebp/porsche-normal.webp);
+    background-size: 100%;
+    background-repeat: no-repeat;
 }
 
